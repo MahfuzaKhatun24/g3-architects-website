@@ -131,47 +131,17 @@ main {
     margin-bottom: 10px;
 }
 
+.sponsors{
+  text-align: center;  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.sponsors-img-container{
+    display: flex;
+  justify-content: space-evenly; 
+  align-items: center; 
+  gap: 30px;
+  padding: 0 70px;
+}
 
 
 
@@ -185,17 +155,24 @@ main {
         flex-direction: column;
     }
 
-    .teams-container {
+    .teams-container,
+    .facts-card-container,
+    .sponsors-img-container  
+     {
         flex-direction: column;
+        
     }
 
-    .teams-img-container {
+.teams-img-container {
         grid-template-columns: 1fr;
     }
 
-    .teams-content {
+    .teams-content, .facts-card-container {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .facts-card-container{
+        gap: 20px;
     }
 
 }
@@ -207,7 +184,12 @@ main {
 
     nav,
 
-    .teams-container {
+    .teams-container,
+    .sponsors-img-container  
+     {
         flex-direction: column;
     }
 }
+
+
+
