@@ -180,6 +180,13 @@ bottom: 100px;
 .sponsors-img-container img{
     width: 165px;
 }
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 220px 240px;
+    text-align: center; 
+    padding: 80px 110px;
+}
 
 
 @media screen and (max-width:576px) {
@@ -219,6 +226,10 @@ bottom: 100px;
     .facts-card-container{
         gap: 20px;
     }
+    .footer{
+        padding: 20px 20px;
+        margin: 50px 50px;
+    }
 
 }
 
@@ -234,6 +245,10 @@ bottom: 100px;
     .features   
      {
         flex-direction: column;
+    }
+    .footer{
+        padding: 30px 30px;
+        margin: 100 100;
     }
 }
 
